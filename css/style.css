@@ -1,0 +1,161 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+.section{
+	border:2px solid grey;
+	width:100%;
+	height:100vh;
+	/* background-color:black; */
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.parent{
+	border:2px solid grey;
+	width:80%;
+	height:100px;
+	/* background-color:white; */
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+.btn-primary{
+	text-decoration:none;
+		background-color:#126BFB;
+	padding:8px 16px;
+	border-radius:6px;
+	color:white;
+	border:none;
+	transition:0.8s;
+	cursor:pointer;
+	
+}
+.btn-secondary{
+	text-decoration:none;
+		background-color:#6C757D;
+	padding:8px 16px;
+	border-radius:6px;
+	color:white;
+	transition:0.8s;
+	border:none;
+	cursor:pointer;
+}
+.btn-success{
+	text-decoration:none;
+		background-color:#188754;
+	padding:8px 16px;
+	border-radius:6px;
+	color:white;
+	transition:0.8s;
+	border:none;
+	cursor:pointer;
+}
+.btn-danger{
+	text-decoration:none;
+		background-color:#DE3446;
+	padding:8px 16px;
+	border-radius:6px;
+	color:white;
+	border:none;
+	transition:0.8s;
+	cursor:pointer;
+	font-weight:bold;
+}
+.link{
+     background-color: transparent;
+    text-decoration: underline;
+    border: none;
+    color: blue;
+	transition:0.8s;
+	font-weight:bold;
+}
+	
+
+.btn-warning{
+	text-decoration:none;
+	background-color:#FFBE16;
+	padding:8px 16px;
+	border-radius:6px;
+	color:white;
+	border:none;
+	transition:0.8s;
+	font-weight:bold;
+	cursor:pointer;
+}
+.btn-info{
+	text-decoration:none;
+	background-color:#11C7F7;
+	padding:8px 16px;
+	border-radius:6px;
+	font-weight:bold;
+	color:white;
+	border:none;
+	transition:0.8s;
+	cursor:pointer;
+}
+.btn-light{
+	text-decoration:none;
+		background-color:white;
+	padding:8px 16px;
+	border-radius:6px;
+	font-weight:bold;
+	color:black;
+	transition:0.8s;
+	border:none;
+	cursor:pointer;
+}
+.btn-dark{
+	transition:0.8s;
+	text-decoration:none;
+		background-color:black;
+	padding:8px 16px;
+	border-radius:6px;
+	color:white;
+	border:none;
+	cursor:pointer;
+		font-weight:bold;
+
+	
+}
+
+
+.btn-primary:hover{
+	transform:0.8s;
+	background-color:navy;
+	
+}
+.btn-secondary:hover{
+	transform:0.8s;
+	background-color:black;
+}
+
+.btn-success:hover{
+	transform:0.8s;
+	background-color:lime;
+}
+.btn-danger:hover{
+	transform:0.8s;
+	background-color:orange;
+	
+}
+.btn-warning:hover{
+	transform:0.8s;
+	background-color:#FFDD33;
+	
+}
+.btn-info:hover{
+transform:0.8s;
+	background-color:lightblue;
+	color:black;
+}
+.btn-light:hover{
+	transform:0.8s;
+	background-color:gray;
+	color:white;
+}
+.btn-dark:hover{
+	transform:0.8s;
+	background-color:grey;
+}
